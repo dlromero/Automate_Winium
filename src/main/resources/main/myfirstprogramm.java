@@ -14,7 +14,7 @@ public class myfirstprogramm {
 
 		WebDriver driver = null;
 		String notepadApplicationPath = "C:\\Windows\\System32\\notepad.exe";
-		String winiumDriverPath = "C:\\Users\\daromero\\Documents\\SeleniumDrivers\\Winium.Desktop.Driver.exe";
+		String winiumDriverPath = "C:\\Users\\[your_user]\\Documents\\SeleniumDrivers\\Winium.Desktop.Driver.exe";
 		// before start another session
 		Process process = Runtime.getRuntime().exec("taskkill /F /IM Winium.Desktop.Driver.exe");
 		process.waitFor();
@@ -38,13 +38,13 @@ public class myfirstprogramm {
 		// Thread.sleep(1000);
 		driver.findElement(By.name("OK")).click();
 		// Thread.sleep(1000);
-		driver.findElement(By.className("Edit")).sendKeys("Welcome to Belltech");
+		driver.findElement(By.className("Edit")).sendKeys("Welcome to change");
 		// Thread.sleep(1000);
 		driver.findElement(By.name("File")).click();
 		// Thread.sleep(1000);
 		driver.findElement(By.name("Save")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.name("File name:")).sendKeys("belltech");
+		driver.findElement(By.name("File name:")).sendKeys("learn_programming");
 		Thread.sleep(1000);
 		driver.findElement(By.name("Save")).click();
 		Thread.sleep(1000);
