@@ -1,0 +1,11 @@
+
+Maven Repository:
+https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver/0.1.0-1
+
+Dependency:
+Install Microsoft .NET Framework 4.5.1
+pom.xml file:
+	selenium-java
+	selenium-server
+	winium-elements-desktop
+	winium-webdriver
